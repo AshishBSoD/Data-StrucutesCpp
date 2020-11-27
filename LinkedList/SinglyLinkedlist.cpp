@@ -103,6 +103,7 @@ void deleteNode()
         head = currnode->next;
         currnode->next = NULL;
         cout << "Node deleted.\n";
+        free(currnode);
         return;
     }
     while (currnode != NULL)
@@ -111,6 +112,7 @@ void deleteNode()
         {
             prevnode->next = currnode->next;
             currnode->next = NULL;
+            free(currnode);
             cout << "Node deleted.\n";
             return;
         }
