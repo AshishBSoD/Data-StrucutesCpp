@@ -1,0 +1,5 @@
+There are 4 files in this folder.
+1. SinglyLinkedList.cpp - This contains demonstration of simple linked list in which each node have data and pointer to next node.
+2. Doublyll.cpp - In this each node of linked list have two pointer namely next and prev which point to next node and previous node respectively.
+3. Circularll.cpp - In this linkedlist form a circle i.e. last node is connected to the first node.
+4. DoubleCircularll.cpp - In this linkedlist form a circle i.e. last node is connected to the first node and also each node have two pointer to point at next as well as previous node.
